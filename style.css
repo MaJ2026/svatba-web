@@ -170,7 +170,7 @@ li {
 #bible-verse {
     display: block;
     text-align: right;
-    margin-right: var (--space-2)
+    margin-right: var (--space-3)
     font-weight: bold;
     font-size: 0.8rem;
 }
