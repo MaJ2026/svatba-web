@@ -50,12 +50,12 @@ section {
     margin: 0 auto;
     padding: var(--space-5);
     text-align: left;
-    align-items: left;
 }
 
 .container {
     width: 100%;
     margin: 0 auto;
+    border: 1px solid var(--black);
 }
 
 #invitation {
@@ -92,7 +92,7 @@ section {
 /* ---------- Typography ---------- */
 
 h1 {
-    margin: 0;
+    text-align: left;
 }
 
 h2 {
@@ -157,6 +157,10 @@ li {
     font-size: 0.9rem;
 }
 
+.space { 
+    margin-top: var(--space-3);
+}
+
 #quote {
     font-size: 0.8rem;
     font-style: italic;
@@ -167,7 +171,7 @@ li {
 #bible-verse {
     display: block;
     text-align: right;
-    margin-right: 6rem;
+    margin-right: 7rem;
     font-weight: bold;
     font-size: 0.8rem;
 }
